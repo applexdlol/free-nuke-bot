@@ -326,4 +326,4 @@ async def webraid(ctx):
         print("someone try to webraid but no PERMS XDDDD")
 
 
-bot.run("MTA2OTg0MjYyODM3NzU3OTU0MQ.G1tXcN.HNSGg2abruCFrz1xvYuoovq-RGI9pmapt6t2e8")
+bot.run("enter your token here")
