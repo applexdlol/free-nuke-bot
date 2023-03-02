@@ -26,7 +26,6 @@ bot = commands.Bot(
 )
 role = ["hahalol"]
 webhook_name=["bob"]
-authorized_id = [836426974339006495]
 
 channels = ["test", "hi", "good-game"]
 
