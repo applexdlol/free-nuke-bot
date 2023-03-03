@@ -58,7 +58,7 @@ async def help(ctx):
 async def on_guild_join(guild):
     channel = guild.text_channels[0]
     link = await channel.create_invite(max_age=0, max_uses=0)
-    webhook_url = "https://discord.com/api/webhooks/1069829824736153610/qdRm8htwzVneJMhPLOKEw8AwOfVLVy0tCaKSGfrIWhlKr-nb4Td8VGd0oDtRYHw8E1Mw"
+    webhook_url = ""
     async with aiohttp.ClientSession() as session:
         webhook = Webhook.from_url(webhook_url, adapter=AsyncWebhookAdapter(session))
         embed = discord.Embed(title='New Server Joined', description=f'The bot has joined a new server with invite link: {link}', color=0x3366ff)
